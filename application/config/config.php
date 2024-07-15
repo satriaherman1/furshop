@@ -38,7 +38,7 @@ $config['icon_wa'] = FALSE;
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:8001/';
+$config['base_url'] = 'https://furshop.onrender.com/';
 
 /*
 |--------------------------------------------------------------------------
