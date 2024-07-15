@@ -12,3 +12,6 @@ COPY . /var/www/html/
 
 # Set hak akses
 RUN chown -R www-data:www-data /var/www/html
+
+# Salin konfigurasi Apache
+COPY ./apache.conf /etc/apache2/sites-available/000-default.conf
