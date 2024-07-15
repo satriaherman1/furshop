@@ -1,6 +1,9 @@
 # Gunakan image PHP dengan Apache
 FROM php:8.1-apache
 
+# Aktifkan mod_rewrite
+RUN a2enmod rewrite
+
 # Install ekstensi yang diperlukan
 RUN docker-php-ext-install pdo pdo_mysql
 
