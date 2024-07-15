@@ -4,7 +4,7 @@ RUN apt-get update && \
 RUN apt-get install -y curl
 RUN apt-get install -y build-essential libssl-dev zlib1g-dev libpng-dev libjpeg-dev libfreetype6-dev
 RUN apt-get install -y libicu-dev
-COPY sites-available/elioter.conf /etc/apache2/sites-enabled/elioter.conf
+COPY apache.conf /etc/apache2/sites-available/000-default.conf
 RUN apt-get update
 RUN docker-php-ext-install intl
 RUN docker-php-ext-configure intl
