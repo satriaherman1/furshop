@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn' => '',
-	'hostname' => 'sql12.freemysqlhosting.net',
-	'username' => 'sql12719907',
-	'password' => 'z1ySKPIwzL',
-	'database' => 'sql12719907',
+	'hostname' => 'SG-clammy-yogurt-9545-9546-mysql-master.servers.mongodirector.com',
+	'username' => 'sgroot',
+	'password' => 'J8RhD1r.2LOPG5nz',
+	'database' => 'furshop',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
