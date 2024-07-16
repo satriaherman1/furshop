@@ -92,5 +92,8 @@ $db['default'] = array(
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
-	'save_queries' => TRUE
+	'save_queries' => TRUE,
+	'options' => [
+		MYSQLI_OPT_SSL_VERIFY_SERVER_CERT => '/var/www/html/application/ca-cert.pem',
+	],
 );
