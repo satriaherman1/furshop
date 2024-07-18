@@ -4,7 +4,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 date_default_timezone_set("Asia/Jakarta");
 
 // my config
-$config['app_name'] = 'Buntomart';
+$config['app_name'] = 'Furshop';
 $config['navbar_color'] = "#12283f !important";
 $config['api_rajaongkir'] = 'API Key';
 $config['mail_account'] = 'mail_account';
@@ -13,7 +13,7 @@ $config['host_mail'] = 'host_mail';
 $config['port_mail'] = 'port_mail';
 $config['whatsapp'] = '08xx'; // nomor whatsapp format 08xxxxxxxxxx
 $config['whatsappv2'] = '628xx'; // nomor whatsapp format 628xxxxxxxxxx
-$config['email_contact'] = 'contact@olshop.com';
+$config['email_contact'] = 'contact@furshop.com';
 $config['icon_wa'] = FALSE;
 
 /*
